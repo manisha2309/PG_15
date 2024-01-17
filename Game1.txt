@@ -1,0 +1,20 @@
+Git bash-used by us
+Git sui-not used bcz its for layman and also has less features.
+Mkdir space then write namegit-this creates a new folder in c drive users C:/Users/…../….
+Ls->It lists all the files present in the folder(folder that is made previously)
+cd-> this command is used to change directory and move to previous directory
+
+Way of writing folder
+C:/Users/Vibhu(Name)/Project
+
+Task
+1.create a folder parentgit
+2.create a folder childgit
+3.create a folder grandchildgit(use only mkdir,ls,cd)
+
+solution-
+first using mkdir create a parentfolder
+then using cd command go in that parentfolder
+then in that folder using mkdir create a child folder
+then using cd command go in child folder
+then again continue same process for grandchild folder 
