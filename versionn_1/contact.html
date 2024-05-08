@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{margin: 0;padding: 0;box-sizing: border-box;}
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+        
+        }
+        .border-wrap{
+           border-style: solid;
+           border-radius: 6px;
+            min-height: 100vh;
+           min-width: 50vh;
+           background-image: linear-gradient(to right,rgb(177, 80, 128),rgb(54, 114, 193));
+           /* font-family:"Times New Roman", Times, seri;; */
+        }
+        
+        .flip-card {
+          background-color: transparent;
+         width: 30%;
+          height: 300px;
+          perspective: 1000px;
+        }
+        
+        .flip-card-inner {
+          position: relative;
+          width: 100%;
+          height: 100%;
+          text-align: center;
+          transition: transform 0.6s;
+          transform-style: preserve-3d;
+          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        }
+        
+        .flip-card:hover .flip-card-inner {
+          transform: rotateY(180deg);
+          border-radius: 50%;
+        }
+        
+        .flip-card-front, .flip-card-back {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+          border-radius: 50%;
+        }
+        
+        .flip-card-front {
+          background-color: black;
+          color: black;
+          border-radius: 50%;
+        }
+        
+        .flip-card-back {
+          background-color:rgb(66, 20, 20);
+          color: white;
+          transform: rotateY(180deg);
+          text-align: center;
+        }
+        .container{
+          display: flex;
+          justify-content:center;
+          border: 1px;
+          margin-top: 3rem;
+        }
+        </style>
+        </head>
+        <body>
+        
+
+          <div class="border-wrap">
+        <h1 style="color:whitesmoke;font-size: 90px;"><center><i>CONTACT US</i></center></h1>
+       
+        <div class="container">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="boy.png"  alt="Avatar" style="width:300px;height:300px; border-radius: 50%;">
+              </div>
+              <div class="flip-card-back">
+             <br><br><br><br><br><h1>Manan</h1><br>
+                <p><b>manan0717@chitkara.edu.in</b></p><br>
+                <p>2345678901</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="girl.png"  alt="Avatar" style="width:300px;height:300px; border-radius: 50%;">
+                </div>
+                <div class="flip-card-back">
+                  <br><br><br><br><br><h1>Manisha</h1><br>
+                  <p><b>manisha0718@chitkara.edu.in</b></p><br> 
+                  <p>1234567890</p>
+                </div>
+              </div>
+            </div>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="boy.png"  alt="Avatar" style="width:300px;height:300px; border-radius: 50%;">
+                </div>
+                <div class="flip-card-back">
+                  <br><br><br><br><br><h1>Manav</h1><br> 
+                  <p><b>manav0719@chitkara.edu.in</b></p><br> 
+                  <p>2134567890</p>
+                </div>
+              </div>
+            </div>
+
+
+
+        </div>
+       
+      </div> 
+          
+
+        
+</head>
+<body>
+    
+</body>
+</html>
