@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 //Get references to the DOM elements
 const loginForm = document.getElementById('loginForm');
 const emailInput = document.getElementById('email');
@@ -94,4 +94,3 @@ function saveLoginAddress(email) {
 }
 
 
->>>>>>> 9c7a04d8b0eb27886e8c0394d1ceac7e970deaca
