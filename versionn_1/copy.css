@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .division{
     float: left;
     margin-left: 4%;
@@ -30,3 +31,37 @@
 
 
   
+=======
+.division{
+    float: left;
+    margin-left: 4%;
+    font-size: 20px;
+    font-family: serif;
+    color:rgb(55, 55, 131);
+}
+.division1{
+    float: left;
+    margin-left: 15%;
+    font-size: 20px;
+    font-family: serif;
+    color:rgb(55, 55, 131);
+}
+.step row
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4.6875rem;
+}
+.division1{
+    float:right;
+    margin-right: 15%;
+    font-size: 20px;
+    font-family: serif;
+    color:rgb(55, 55, 131);
+}
+
+
+  
+>>>>>>> 9c7a04d8b0eb27886e8c0394d1ceac7e970deaca
