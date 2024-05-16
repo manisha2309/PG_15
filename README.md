@@ -35,7 +35,7 @@ Branch4 and Tag4 named version1.4 released by Manav Gupta on 16th May 2024
 # Table of Content:
 
 | Sr No.| File Name | Features | Done by |
-|-------|-----------|------------|------------------------------|-------------------------|-----------------------------|----------|
+|-------|-----------|------------|--------|
 | 1| addcontact.js | Displays the saved contacts and their information functionality.| Manisha|
 | 2| ques.js | Added the functionality to show answers to FAQ's| Manav Gupta|
 | 3| login2.js| Added the prompt option and saves info of login |Manav Gupta|
