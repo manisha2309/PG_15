@@ -21,7 +21,13 @@ _Welcome to the ADDRESS BOOK, where we managing your addresses as well as other 
 # Timeline of Releases
 
 1.Version 1 Release:
-Branch1 and Tag1 named version1 released by 
+Branch1 and Tag1 named version1 released by Manisha on 8th May 2024
 
 2.Version 2 Release:
-Branch2 and Tag2 named version2 released by 
+Branch2 and Tag2 named version1.2 released by Manisha on 11th May 2024
+
+3.Version 3 Release:
+Branch2 and Tag2 named version1.3 released by Manav Gupta on 15th May 2024
+
+4.Version 4 Release:
+Branch2 and Tag2 named version1.4 released by Manav Gupta on 16th May 2024
